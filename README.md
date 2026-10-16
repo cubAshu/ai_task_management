@@ -1,11 +1,15 @@
+<<<<<<< HEAD
 # changes by branch staging
 not clear what change to make so writing this line and hope this will be considered as change :)
 _(/\)_
 
 # changes from feature-task-filter branch
-                                                 / \
-:) hope this will be considered as a change (/*^*\)  :)
+                                            / \
+again  hope this will be considered as a change (/*^*\)  :)
 
+=======
+# creating a conflict from branch feature-task-filter :)
+>>>>>>> feature-task-filter
 # AI Task & Knowledge Management Engine
 
 <p align="center">
