@@ -1,3 +1,51 @@
+# Development Setup
+
+⚙️ Installation & Setup
+1. Clone the Repository
+git clone <YOUR_GITHUB_REPOSITORY_URL>
+cd <YOUR_PROJECT_DIRECTORY>
+🐍 Backend Setup
+Navigate to the backend directory:
+
+cd backend
+Create a virtual environment:
+
+Windows
+python -m venv venv
+Activate it:
+
+venv\Scripts\activate
+Linux / macOS
+python3 -m venv venv
+source venv/bin/activate
+Install dependencies:
+
+pip install -r requirements.txt
+🗄️ Database Configuration
+Create a MySQL database.
+
+Example:
+
+CREATE DATABASE ai_task_manager;
+Configure the database connection in the backend environment configuration.
+
+Example:
+
+DATABASE_URL=mysql+pymysql://username:password@localhost:3306/ai_task_manager
+🔐 Environment Variables
+Example backend .env:
+
+DATABASE_URL=mysql+pymysql://username:password@localhost:3306/ai_task_manager
+
+SECRET_KEY=your-secret-key
+
+ALGORITHM=HS256
+
+ACCESS_TOKEN_EXPIRE_MINUTES=60
+Do not commit .env to GitHub.
+
+# above added for assessment purpose
+
 
 # AI Task & Knowledge Management Engine
 
