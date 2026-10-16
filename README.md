@@ -4,7 +4,7 @@ _(/\)_
 
 # changes from feature-task-filter branch
                                                  / \
-again hope this will be considered as a change (/*^*\)  :)
+:) hope this will be considered as a change (/*^*\)  :)
 
 # AI Task & Knowledge Management Engine
 
